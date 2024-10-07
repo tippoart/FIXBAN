@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Tempatkan brand FixBan di tengah */}
         <h1 className="text-black text-2xl font-bold relative right-16">
           <Link href="/">
-          <img src="../img/logofixban2web.png" className="w-44 object-cover" alt="" />
+          <Image width={400} height={400} src="/img/logofixban2web.png" className="w-44 object-cover" alt="" />
           </Link>
         </h1>
 

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { LuLogIn } from "react-icons/lu";
+import Link from "next/link"
 
 const SignupPage = () => {
   const [formData, setFormData] = useState({
@@ -84,9 +85,9 @@ const SignupPage = () => {
         </form>
         <p className="mt-4 text-center">
           Belum Punya Akun?{" "}
-          <a href="/Signup" className="text-blue-600">
+          <Link href="/Signup" className="text-blue-600">
             Daftar
-          </a>
+          </Link>
         </p>
         
 

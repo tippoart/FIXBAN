@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { LuLogIn } from "react-icons/lu";
 
-
+import Link from "next/link";
 
 const SignupPage = () => {
   const [formData, setFormData] = useState({
@@ -121,9 +121,9 @@ const SignupPage = () => {
         </form>
         <p className="mt-4 text-center">
           Sudah Punya Akun?{" "}
-          <a href="/Login" className="text-blue-600">
+          <Link href="/Login" className="text-blue-600">
             Masuk
-          </a>
+          </Link>
         </p>
         <div className="flex items-center justify-center mt-4">
           <div className="border-t border-gray-300 w-1/3"></div>
